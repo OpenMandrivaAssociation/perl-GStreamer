@@ -9,7 +9,6 @@ Group:   Development/GNOME and GTK+
 Source:  %module-%version.tar.bz2
 # http://sourceforge.net/project/showfiles.php?group_id=64773&package_id=150831
 URL: http://gtk2-perl.sf.net/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: perl-Glib >= 1.100
 BuildRequires: perl-Gtk2 >= 1.100
 BuildRequires: libgstreamer-devel >= 0.10
