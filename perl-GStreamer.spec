@@ -3,7 +3,7 @@
 Summary: Perl module for the gstreamer library
 Name:    perl-%module
 Version: 0.11
-Release: %mkrel 1
+Release: %mkrel 2
 License: GPL or Artistic
 Group:   Development/GNOME and GTK+
 Source:  %module-%version.tar.bz2
