@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    Perl module for the gstreamer library
 License:    GPL+ or Artistic
@@ -26,11 +26,10 @@ This module allows you to use the GStreamer library from Perl.
 %prep
 %setup -q -n %{upstream_name}-%{upstream_version}
 find -type d -name CVS | rm -rf 
-perl Makefile.PL INSTALLDIRS=vendor
 
 %build
-RPM_OPT_FLAGS="$RPM_OPT_FLAGS"
-%make OPTIMIZE="$RPM_OPT_FLAGS"
+perl Makefile.PL INSTALLDIRS=vendor
+%make OPTIMIZE="%optflags" OTHERLDFLAGS="-Wl,--as-needed"
 #%make test || :
 
 %install
