@@ -1,15 +1,15 @@
 %define upstream_name    GStreamer
-%define upstream_version 0.15
+%define upstream_version 0.16
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Perl module for the gstreamer library
 License:    GPL+ or Artistic
 Group:      Development/GNOME and GTK+
 Url:        http://gtk2-perl.sf.net/
-Source0:    %{upstream_name}-%{upstream_version}.tar.bz2
+Source0:    http://downloads.sourceforge.net/gtk2-perl/%{upstream_name}-%{upstream_version}.tar.gz
 # http://sourceforge.net/project/showfiles.php?group_id=64773&package_id=150831
 
 BuildRequires: libgstreamer-devel >= 0.10
