@@ -1,6 +1,5 @@
 %define upstream_name    GStreamer
-%define upstream_version 0.16
-
+%define upstream_version 0.18
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version 0.18
 Release:	1
