@@ -1,15 +1,14 @@
 %define upstream_name    GStreamer
-%define upstream_version 0.16
-
+%define upstream_version 0.18
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:	3
+Version:    %perl_convert_version 0.18
+Release:	1
 
 Summary:    Perl module for the gstreamer library
 License:    GPL+ or Artistic
 Group:      Development/GNOME and GTK+
 Url:        http://gtk2-perl.sf.net/
-Source0:    http://downloads.sourceforge.net/gtk2-perl/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:    http://sourceforge.net/projects/gtk2-perl/files/GStreamer/0.18/GStreamer-0.18.tar.gz
 # http://sourceforge.net/project/showfiles.php?group_id=64773&package_id=150831
 
 BuildRequires: libgstreamer-devel >= 0.10
@@ -124,15 +123,16 @@ rm -rf $RPM_BUILD_ROOT
 * Thu Dec 08 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.05-1mdk
 - new release
 
-* Wed Oct 05 2005 Nicolas Lécureuil <neoclust@mandriva.org> 0.04-4mdk
+* Wed Oct 05 2005 Nicolas LÃ©cureuil <neoclust@mandriva.org> 0.04-4mdk
 - Fix BuildRequires
 
-* Tue Oct 04 2005 Nicolas Lécureuil <neoclust@mandriva.org> 0.04-3mdk
+* Tue Oct 04 2005 Nicolas LÃ©cureuil <neoclust@mandriva.org> 0.04-3mdk
 - Fix BuildRequires
 
-* Tue Oct 04 2005 Nicolas Lécureuil <neoclust@mandriva.org> 0.04-2mdk
+* Tue Oct 04 2005 Nicolas LÃ©cureuil <neoclust@mandriva.org> 0.04-2mdk
 - BuildRequires fix
 
 * Tue Oct 04 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.04-1mdk
 - initial release
+
 
