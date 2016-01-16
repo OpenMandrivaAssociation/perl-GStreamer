@@ -1,4 +1,2 @@
-removed_sources:
-  GStreamer-0.16.tar.gz: 2aaea92cdf53d128e3899bb322f529d4e45db669
 sources:
-  GStreamer-0.18.tar.gz: d766438ffeb6e595706ed2d7b09dd141e333e47c
+  GStreamer-0.20.tar.gz: 1db033443c63882a27ce0061dbdadad869cd0082
