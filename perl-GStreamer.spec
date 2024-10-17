@@ -7,7 +7,7 @@ Release:	1
 Summary:    Perl module for the gstreamer library
 License:    GPL+ or Artistic
 Group:      Development/GNOME and GTK+
-Url:        http://gtk2-perl.sf.net/
+Url:        https://gtk2-perl.sf.net/
 Source0:    http://sourceforge.net/projects/gtk2-perl/files/GStreamer/0.18/GStreamer-0.18.tar.gz
 # http://sourceforge.net/project/showfiles.php?group_id=64773&package_id=150831
 
