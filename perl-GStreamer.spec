@@ -11,6 +11,7 @@ Url:        https://gtk2-perl.sf.net/
 Source0:    http://sourceforge.net/projects/gtk2-perl/files/GStreamer/0.18/GStreamer-0.18.tar.gz
 # http://sourceforge.net/project/showfiles.php?group_id=64773&package_id=150831
 
+BuildRequires:	make
 BuildRequires: libgstreamer-devel >= 0.10
 BuildRequires: perl-Glib >= 1.100
 BuildRequires: perl-Gtk2 >= 1.100
