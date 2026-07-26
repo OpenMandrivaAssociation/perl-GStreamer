@@ -1,8 +1,7 @@
 %define upstream_name    GStreamer
-%define upstream_version 0.21
 Name:       perl-%{upstream_name}
-Version:    %{upstream_version}
-Release:	1
+Version:    0.21
+Release:	2
 
 Summary:    Perl module for the gstreamer library
 License:    GPL+ or Artistic
@@ -23,7 +22,7 @@ BuildRequires: perl-devel
 This module allows you to use the GStreamer library from Perl.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 find -type d -name CVS | rm -rf 
 
 %build
